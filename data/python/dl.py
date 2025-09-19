@@ -45,6 +45,13 @@ adblock = [
     "https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_small.txt",
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
     "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/Privacy/Privacy.txt",
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/Advertising/Advertising.txt",
+    "https://raw.githubusercontent.com/qq5460168/666/master/dns.txt",
+    "https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts",
+    "https://raw.githubusercontent.com/790953214/qy-Ads-Rule/main/black.txt",
+    "https://ad.kirychan.com/KR_DNS_Filter.txt",
+    "https://raw.githubusercontent.com/kers701/Adhome/refs/heads/main/back.txt",
     "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
 ]
 
