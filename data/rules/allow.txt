@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-09-19 22:35:24（北京时间）
+! Version: 2025-09-19 22:44:07（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 13952
+! Total count: 13958
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -6308,6 +6308,7 @@
 @@||h.imedia.cz/js/cmp2/scmp.js$domain=seznam.cz
 @@||h1g.jp/img/ad/ad_heigu.html$~third-party
 @@||h5.4j.com/js/ima3.js
+@@||h5vv6.video.qq.com^
 @@||haafedk2.com^$generichide
 @@||haaretz.co.il/htz/js/advertisement.js
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
@@ -10058,6 +10059,8 @@
 @@||piaotia.com/scripts/readindex/tongji.js
 @@||pibys.win/js/prebid-ads.js
 @@||pic*.cdncl.net^$stealth=referrer,domain=cowlevel.net
+@@||pic1.zhimg.com^
+@@||pica.zhimg.com^
 @@||piccool.com/2home/phpAdsNew/
 @@||pichive.online^$subdocument,xmlhttprequest,stealth=referrer
 @@||picjs.xyz^$stealth=referrer,domain=vikacg.com
@@ -10067,6 +10070,7 @@
 @@||picsearch.com/js/comscore.js$domain=dn.se
 @@||pictasty.com^$generichide
 @@||pictogo.net^$stealth=referrer,third-party
+@@||picx.zhimg.com^
 @@||pikabu.ru/story/*_reklama_
 @@||pikafile.com^$generichide
 @@||pikio.pl^$generichide
@@ -13653,9 +13657,11 @@
 @@||wwwcache.wral.com/presentation/v3/scripts/providers/analytics/ga.js$~third-party
 @@||wwwimage-tve.cbsstatic.com^
 @@||wwwstream.pro^$subdocument,stealth=referrer
+@@||wx.qlogo.cn^
 @@||wx.qq.com/*/ad_$script
 @@||wx.qq.com/c/=/mpres/*/video_ad_
 @@||wx.qq.com/mmbizwap/*/framead.
+@@||wxapp.tc.qq.com^
 @@||wyhifdpatl.com^|$xmlhttprequest,domain=kbjfree.com
 @@||wyklady.org^$generichide
 @@||wykop.pl/api/v3/ads/redirect?data=$xmlhttprequest,domain=wykop.pl
