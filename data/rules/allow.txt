@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-05-26 22:38:02（北京时间）
+! Version: 2026-05-27 10:13:07（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14438
+! Total count: 14444
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -519,7 +519,6 @@
 @@ws://localhost^$stealth,domain=play.sooplive.com
 @@yandex.*/user-id?$stealth=referrer|searchqueries
 @@|/wp-content/plugins/*/assets/fuckadblock.js
-@@|^$generichide
 @@|blob:https://www.twitch.tv
 @@|data:text^$popup,domain=box.com|clker.com|labcorp.com
 @@|forefront.ai^$stealth=3p-cookie
@@ -3592,6 +3591,7 @@
 @@||cnprint.org^$generichide
 @@||cnr.cn/gg/
 @@||cnsexy.top/wp-content/plugins/dh-anti-adblocker/assets/js/showads.js
+@@||cnstrc.com/js/cust/indigo_pAkokG.js$domain=indigo.ca
 @@||cnstrc.com/js/cust/swanson-health_*.js$domain=swansonvitamins.com
 @@||cnt.streamz.ws/count.php
 @@||cntr.lookmovie.ag/get.php$xmlhttprequest,domain=lookmovie.ag
@@ -4405,6 +4405,7 @@
 @@||ds2play.com^$stealth=ip
 @@||dsharer.com/-ads-banner.js
 @@||dsvplay.com^$generichide
+@@||dt.adsafeprotected.com/dt?adspot_id=$domain=247sports.com
 @@||dtdc.com/tracking/
 @@||dtdc.in/tracking^
 @@||dthumb.phinf.naver.net^$stealth=referrer
@@ -7985,6 +7986,7 @@
 @@||kumo.network-n.com/dist/app.js$domain=discordbotlist.com
 @@||kumospace.com^$stealth=webrtc
 @@||kun.uz^$stealth=dpi
+@@||kunde-s.ergo.de/meineversicherungen/L1/api/$stealth=donottrack
 @@||kuramu.net^$generichide
 @@||kursjs.pl/js/ads-prebid.js
 @@||kursjs.pl/js/dfp.js
@@ -8465,6 +8467,7 @@
 @@||matlab.mathworks.com^$generichide
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||matomo.moeci.com/matomo.js$domain=moeci.com
+@@||matprat.no^$stealth=dpi
 @@||matrix.redditspace.com^$stealth=3p-auth
 @@||matsukiyococokara-online.com/store/*/rtoaster.js
 @@||matzoo.pl^$generichide
@@ -9370,6 +9373,8 @@
 @@||onlinemschool.com/script/ads.js
 @@||onlinemschool.com/script/ads1.js
 @@||onlinemschool.com^$generichide
+@@||onlinestarten.net/assets/*sn1_dvt-prod.js$domain=247sports.com
+@@||onlinestarten.net^$xmlhttprequest,domain=247sports.com
 @@||onlinetermine-agentur.allianz.de^$stealth=referrer
 @@||onlinetutorium.com^$generichide
 @@||onlinetyping.org/detroitchicago/cmbdv2.js
@@ -13145,6 +13150,7 @@
 @@||tpc.googlesyndication.com/pagead/js/*/elements/html/interstitial_ad_frame_$script,domain=safeframe.googlesyndication.com
 @@||tpc.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sportshub.to
 @@||tpc.googlesyndication.com/pimgad/$image,domain=ads.google.com
+@@||tpc.googlesyndication.com/safeframe/*/html/container.html$domain=247sports.com
 @@||tpc.googlesyndication.com/safeframe/*/html/container.html$xmlhttprequest,domain=megainteresting.com
 @@||tpc.googlesyndication.com/simgad/$domain=a2zapk.co
 @@||tpc.googlesyndication.com/simgad/$domain=a2zapk.io,image
