@@ -2,7 +2,7 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-05-27 22:52:23（北京时间）
+! Version: 2026-05-28 09:57:14（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 14438
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
@@ -1896,7 +1896,6 @@
 @@||app.appsflyer.com/id*&*navigate_url*shopee.co
 @@||app.axenthost.com^$generichide
 @@||app.clarity.so^$~third-party
-@@||app.clickfunnels.com/assets/lander.js$script,domain=painprophet.com|propanefitness.com
 @@||app.datapacket.com^$content
 @@||app.focusmate.com^$stealth=webrtc
 @@||app.freeinvoicebuilder.com/*/index.php$xmlhttprequest,elemhide,jsinject,extension
@@ -2774,6 +2773,7 @@
 @@||cdn*.pw/stream2/cdn-*/index.m3u8$stealth=ip|referrer
 @@||cdn*.vb*rexhammond.pw/stream*/cdn*$stealth=ip
 @@||cdn-*.convertexperiments.com/js^$domain=xda-developers.com
+@@||cdn-*.pixel-sus-4k-image.com/stream/$stealth=referrer
 @@||cdn-a.yieldlove.com/yieldlove-bidder.js?meczyki.pl_mobile$domain=meczyki.pl
 @@||cdn-aitg.widerplanet.com/js/wp_astg_$script,domain=larocheposay.co.kr
 @@||cdn-gl.imrworldwide.com/conf/*.js#name=nlsnInstance$domain=joyn.de
