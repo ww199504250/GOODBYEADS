@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-09-28 10:25:57（北京时间）
+! Version: 2026-09-29 02:54:26（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14828
+! Total count: 14832
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -2730,6 +2730,7 @@
 @@||buyad.bi-xenon.cn^
 @@||buydekhke.com^$generichide
 @@||buysellads.net/pub/freegen.js$xmlhttprequest,domain=freegen.app
+@@||bvr.ast.snva.jp/beaver.js$domain=kojima.net
 @@||by-promokod.by^$stealth=useragent
 @@||byfly.dualstack.speedtestcustom.com^$stealth=referrer
 @@||bysejikuar.com^$subdocument,stealth=referrer,domain=sezonlukdizi8.com
@@ -3285,6 +3286,7 @@
 @@||cdn.permutive.app/*-web.js$domain=theglobeandmail.com
 @@||cdn.permutive.com/*-web.js$domain=independent.co.uk
 @@||cdn.petametrics.com/*-nbc.js$script,domain=bringmethenews.com
+@@||cdn.petametrics.com/*-nbc.js?ts=$domain=bringmethenews.com|athlonsports.com|paulickreport.com|mmaweekly.com
 @@||cdn.petametrics.com/*.js$domain=thestreet.com
 @@||cdn.petametrics.com^$script,domain=mechacomic.jp
 @@||cdn.petametrics.com^$script,domain=meidasnews.com
@@ -7520,6 +7522,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=sonyliv.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=soonersports.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=southpark.*|southparkstudios.*
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=sporteurope.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=sportitalialive.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=spox.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=stack.com
@@ -9219,6 +9222,8 @@
 @@||musictrack.jp/a/ad/banner_member.jpg
 @@||musicvideogenome.com/javascripts/stats.js
 @@||muumuu-domain.com/common/js/ga_social_tracking.js
+@@||mux.com/*.m3u8$stealth=referrer
+@@||mux.com/*.ts?$stealth=referrer
 @@||mux.com^$xmlhttprequest,stealth=referrer,domain=patreon.com
 @@||muzlan.top/ads/banner.png
 @@||muzlan.top^$generichide
@@ -12366,7 +12371,6 @@
 @@||snowfl.com/ads/*.js$~third-party
 @@||snowplow.swm.digital/com.snowplowanalytics.snowplow/$domain=7plus.com.au
 @@||snowplow.swm.digital^$domain=7plus.com.au
-@@||snva.jp/javascripts/reco/$script,domain=abc-mart.net|store.charle.co.jp
 @@||so-magazyn.pl^$generichide
 @@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
 @@||sobootlogo.blogspot.com^$generichide
